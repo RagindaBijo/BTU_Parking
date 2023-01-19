@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/rentalFragment">
+
+    <fragment
+        android:id="@+id/rentalFragment"
+        android:name="com.example.carrent.fragments.RentalFragment"
+        android:label="RentalFragment"
+        tools:layout="@layout/fragment_rental">
+        <action
+            android:id="@+id/action_rentalFragment_to_timeFragment"
+            app:destination="@id/timeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/timeFragment"
+        android:name="com.example.carrent.fragments.TimeFragment"
+        android:label="TimeFragment"
+        tools:layout="@layout/fragment_time">
+        <action
+            android:id="@+id/action_timeFragment_to_rentalFragment"
+            app:destination="@id/rentalFragment" />
+        <argument
+            android:name="spotNameResult"
+            android:defaultValue="აირჩიეთ პარკინგი!"
+            app:argType="string" />
+        <argument
+            android:name="spotImage"
+            android:defaultValue="1"
+            app:argType="integer" />
+        <argument
+            android:name="num"
+            android:defaultValue="0"
+            app:argType="string" />
+        <argument
+            android:name="moneys"
+            android:defaultValue="0.0"
+            app:argType="float" />
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.carrent.fragments.ProfileFragment"
+        android:label="ProfileFragment"
+        tools:layout="@layout/fragment_profile" />
+
+</navigation>

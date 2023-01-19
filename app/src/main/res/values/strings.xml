@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">BTU Parking</string>
+    <string name="park_1_C">Parking spot N31</string>
+    <string name="park_2_C">Parking spot N32</string>
+    <string name="park_3_C">Parking spot N33</string>
+    <string name="park_4_C">Parking spot N34</string>
+    <string name="park_5_C">Parking spot N35</string>
+    <string name="park_1">Parking spot N1</string>
+    <string name="park_2">Parking spot N2</string>
+    <string name="park_3">Parking spot N3</string>
+    <string name="park_4">Parking spot N4</string>
+    <string name="park_5">Parking spot N5</string>
+    <string name="park_6">Parking spot N6</string>
+    <string name="park_7">Parking spot N7</string>
+    <string name="park_8">Parking spot N8</string>
+    <string name="park_9">Parking spot N9</string>
+    <string name="park_10">Parking spot N10</string>
+    <string name="park_11">Parking spot N11</string>
+    <string name="park_12">Parking spot N12</string>
+    <string name="park_13">Parking spot N13</string>
+    <string name="park_14">Parking spot N14</string>
+    <string name="park_15">Parking spot N15</string>
+    <string name="park_16">Parking spot N16</string>
+    <string name="park_17">Parking spot N17</string>
+    <string name="park_18">Parking spot N18</string>
+    <string name="park_19">Parking spot N19</string>
+    <string name="park_20">Parking spot N20</string>
+    <string name="park_21">Parking spot N21</string>
+    <string name="park_22">Parking spot N22</string>
+    <string name="park_23">Parking spot N23</string>
+    <string name="park_24">Parking spot N24</string>
+    <string name="park_25">Parking spot N25</string>
+    <string name="park_26">Parking spot N26</string>
+    <string name="park_27">Parking spot N27</string>
+    <string name="park_28">Parking spot N28</string>
+    <string name="park_29">Parking spot N29</string>
+    <string name="park_30">Parking spot N30</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

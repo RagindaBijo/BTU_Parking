@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "851278930029",
+    "project_id": "luka-s-app-6844b",
+    "storage_bucket": "luka-s-app-6844b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851278930029:android:beea3ae9c6f9824f465f64",
+        "android_client_info": {
+          "package_name": "com.example.carrent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "851278930029-1bobpqh2danbijj9q6g4nodqu4v5hscc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJqo5FLOtTiqjvxnNftr0kepBaQO6PdLY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "851278930029-1bobpqh2danbijj9q6g4nodqu4v5hscc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851278930029:android:dc62f6e1b1c6c7fb465f64",
+        "android_client_info": {
+          "package_name": "com.example.lukas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "851278930029-1bobpqh2danbijj9q6g4nodqu4v5hscc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJqo5FLOtTiqjvxnNftr0kepBaQO6PdLY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "851278930029-1bobpqh2danbijj9q6g4nodqu4v5hscc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
