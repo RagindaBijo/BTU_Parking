@@ -1,6 +1,7 @@
 package com.example.carrent.fragments
 
 import android.app.AlertDialog
+import android.content.Context
 import android.content.Intent
 import android.content.res.Resources.NotFoundException
 import android.os.Bundle
@@ -27,7 +28,6 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
     private lateinit var viewPager:ViewPager2
     private lateinit var logOutBtn: Button
     private lateinit var changePassword: Button
-    private lateinit var binding: ActivityMainBinding
 
     private lateinit var builder:AlertDialog.Builder
 
@@ -62,6 +62,7 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
                     FirebaseAuth.getInstance().signOut()
                     val intent = Intent(this.requireContext(), LogIn::class.java)
                     startActivity(intent)
+
                 }.setNegativeButton("არა"){dialogInterface,it->
                     dialogInterface.cancel()
                 }.show()
@@ -74,9 +75,6 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
             val forget=Intent(this.requireContext(), ForgotPassword::class.java)
             startActivity(forget)
         }
-
-
-
 
 
     }

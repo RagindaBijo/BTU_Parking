@@ -92,16 +92,20 @@ class LogIn : AppCompatActivity() {
     private fun saveData() {
         val sharedPreference=getSharedPreferences("sharedPrefs", Context.MODE_PRIVATE)
         val editor=sharedPreference.edit()
+        val mail=binding.loginEmail.text.toString()
         editor.apply {
             putBoolean("CHECK_KEY",check.isChecked)
+            putString("EMAIL_KEY",mail)
         }.apply()
     }
+
 
     private fun loadData() {
         val sharedPreferences=getSharedPreferences("sharedPrefs", Context.MODE_PRIVATE)
         val savedCheck=sharedPreferences.getBoolean("CHECK_KEY", false)
+        val savedString=sharedPreferences.getString("EMAIL_KEY", null)
         check.isChecked=savedCheck
+        binding.loginEmail.setText(savedString)
     }
-
 
 }
